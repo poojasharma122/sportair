@@ -190,7 +190,7 @@ img {
 }
 
 span.theme {
-    color: #882ac9;
+    color: #b154f0;
 }
 
 .bg_dark {
@@ -217,9 +217,9 @@ span.theme {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    border: 2px solid #882ac9;
+    border: 2px solid #b154f0;
     z-index: 1;
-    color: #882ac9;
+    color: #b154f0;
     text-transform: uppercase;
 }
 
@@ -231,7 +231,7 @@ span.theme {
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: #882ac9;
+    background: #b154f0;
     transition: all 0.3s ease;
 }
 
@@ -290,15 +290,15 @@ span.theme {
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 3.75rem;
+    height: 4.75rem;
     width: 18.75rem;
     display: inline-block;
 }
 
 .nav__toggle {
     display: none;
-    width: 2.1875rem;
-    height: 2.1875rem;
+    width: 3rem;
+    height: 3rem;
     text-align: right;
     cursor: pointer;
     margin: auto 0;
@@ -381,12 +381,12 @@ span.theme {
 }
 
 .nav__item.active {
-    background: #882ac9;
+    background: #b154f0;
 }
 
 .nav__item.active,
 .nav__item:hover {
-    background: #882ac9;
+    background: #b154f0;
 }
 
 .nav__item.active .nav__link,
@@ -464,7 +464,7 @@ span.theme {
 /* Home Slider CSS Start */
 
 .books_cat_cards {
-    box-shadow: #A88BEB 0px 3px 8px;
+    box-shadow: #b154f0 0px 3px 8px;
 }
 
 .books_item_slider {
@@ -488,7 +488,7 @@ span.theme {
 
 button.slick-prev.slick-arrow,
 button.slick-next.slick-arrow {
-    background: #a98be9;
+    background: #b154f0;
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 50%;
@@ -517,14 +517,13 @@ button.slick-next.slick-arrow {
 }
 
 .books_content h2 {
-    color: #A88BEB;
+    color: #b154f0;
     font-size: 3rem;
     margin-bottom: 1.25rem;
 }
 
 .books_content p {
     font-size: 1.5rem;
-    max-width: 46.25rem;
     margin: 0 auto;
     color: #fff;
     font-weight: 300;
@@ -544,9 +543,9 @@ button.slick-next.slick-arrow {
     text-align: center;
     backdrop-filter: blur(5px);
     padding: 2.5rem  1.25rem;
-    box-shadow: #A88BEB 0px 2px 8px 0px;
+    box-shadow: #b154f0 0px 2px 8px 0px;
     border-radius: 20px;
-    max-width: 56.25rem;
+    max-width: 70.25rem;
     margin: 0 auto;
 }
 
@@ -595,7 +594,7 @@ button.slick-next.slick-arrow {
     margin-top: 0;
     margin-bottom: 0.9375rem;
     font-size: 1.5rem;
-    color: #A88BEB;
+    color: #b154f0;
     font-weight: 500;
     line-height: 1.3;
 }
@@ -623,7 +622,7 @@ button.slick-next.slick-arrow {
     background: transparent;
     width: 3.125rem;
     height: 3.125rem;
-    color:#A88BEB;
+    color:#b154f0;
 }
 
 .featured_books_sec .books_slides {
@@ -784,13 +783,13 @@ width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.9375rem;
-    border-top: 1px solid #882ac9;
+    border-top: 1px solid #b154f0;
 }
 
 .footer-top h4 {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
-    color: #882ac9;
+    color: #b154f0;
 }
 
 .footer-links {
@@ -818,24 +817,24 @@ width: 100%;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #882ac9;
+    background-color: #b154f0;
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
 
 .disclaimer_wrap h3 {
     font-size: 2rem;
-    color: #882ac9;
+    color: #b154f0;
 }
 
 .footer-links li a:hover {
-    color: #882ac9;
+    color: #b154f0;
 }
 
 .disclaimer_wrap p a::after {
     bottom: -3px;
     height: 1px;
-    background-color: #882ac9;
+    background-color: #b154f0;
 }
 
 .footer-links li a:hover::after,
@@ -848,7 +847,7 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #882ac9;
+    border-top: 1px solid #b154f0;
     padding-top: 0.625rem;
     margin-top: 2.1875rem;
 }
@@ -866,10 +865,10 @@ width: 100%;
     gap: 0.625rem;
 }
 .behind_bar_text .social-icons li a {
-    border: 1px solid #882ac9;
+    border: 1px solid #b154f0;
 }
 .behind_bar_text .social-icons li a svg {
-    fill: #882ac9;
+    fill: #b154f0;
 }
 .social-icons li a {
     width: 2.5rem;
@@ -934,7 +933,7 @@ width: 100%;
 }
 
 .connect_links li a:hover {
-    color: #882ac9;
+    color: #b154f0;
 }
 
 .bg_center_contain {
@@ -950,7 +949,7 @@ width: 100%;
 }
 
 .disclaimer_wrap p a {
-    color: #882ac9;
+    color: #b154f0;
     transition: 0.2s all ease-in-out;
     position: relative;
 }
