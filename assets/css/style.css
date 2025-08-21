@@ -190,7 +190,7 @@ img {
 }
 
 span.theme {
-    color: #A88BEB;
+    color: #882ac9;
 }
 
 .bg_dark {
@@ -217,9 +217,9 @@ span.theme {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    border: 2px solid #A88BEB;
+    border: 2px solid #882ac9;
     z-index: 1;
-    color: #A88BEB;
+    color: #882ac9;
     text-transform: uppercase;
 }
 
@@ -231,7 +231,7 @@ span.theme {
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: #A88BEB;
+    background: #882ac9;
     transition: all 0.3s ease;
 }
 
@@ -381,12 +381,12 @@ span.theme {
 }
 
 .nav__item.active {
-    background: #A88BEB;
+    background: #882ac9;
 }
 
 .nav__item.active,
 .nav__item:hover {
-    background: #A88BEB;
+    background: #882ac9;
 }
 
 .nav__item.active .nav__link,
@@ -400,56 +400,49 @@ span.theme {
 
 /* Header CSS End */
 
-/* Banner CSS Start */
+/* banner section start */
 
-.books-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
-
-.books-content h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 1.25rem;
-    line-height: 1.3;
-    max-width: 500px;
-}
-
-.books-content p {
-    font-size: 1.1rem;
-    color: #495057;
-    margin-bottom: 1.875rem;
-}
-
-.books-content p:last-child {
-    margin-bottom: 0;
-}
-
-.books-image {
-    width: 100%;
-    height: 31.25rem;
-    border-radius: 0.625rem;
-    box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
-}
-
-.books-image-inner {
-    background-position: center;
+.banner_section {
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    border: 0.9375rem solid #fff;
-    border-radius: 1.25rem;
+    background-position: center;
+    height: 37.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 10;
 }
 
-/* Banner CSS End */
+.banner_section::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 0 0/60%);
+    z-index: -1;
+}
+
+.home_content h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+
+
+.home_content {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* banner section end */
 
 /* Home After Banner CSS Start */
 .home_after_banner_text_rap {
-    background-color: rgba(0 0 0/80%);
+    background-color: rgba(0 0 0/50%);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -462,7 +455,7 @@ span.theme {
 .home_after_banner_text_rap p {
     max-width: 75rem;
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 0 10px;
 }
 
@@ -771,107 +764,199 @@ width: 100%;
 
 /* Newsletter CSS End */
 
-/* Footer CSS Start */
-.footr_blcks h3 {
-    color: #A88BEB;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    padding-bottom: 1.25rem;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    font-weight: 600;
+/* footer start  */
+.site-footer {
+    padding: 3.125rem 0 0.625rem;
+    color: #000;
+    background-color: #f5f5f7;
 }
 
-.footer_logo {
-    border-bottom: 1px solid #A88BEB;
-}
-
-.disclaimer {
-    padding-right: 3.75rem;
-}
-
-.disclaimer p {
-    font-size: 1.1rem;
-    color: #222222;
-    font-weight: 500;
-}
-
-.links_footr ul li a {
-    color: #222222;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: 0.625rem;
-    transition: 0.3s all ease-in-out;
-}
-
-.links_footr ul li a:hover {
-    color: #A88BEB;
-    transform: translateX(3px);
-}
-
-.footer_email {
-    color: #222222;
-    font-size: 1.2rem;
-    display: inline-block;
-    margin-bottom: 0.9375rem;
-}
-
-.social-links {
-    display: flex;
-    align-items: center;
-}
-
-.social-links a {
-    margin-right: 5px;
-    height: 2.5rem;
-    width: 2.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #A88BEB;
-    border-radius: 0.3125rem;
-    padding: 0.5rem;
-    transition: 0.2s all ease-in-out;
-}
-
-.social-links a svg {
-    height: 100%;
-    width: 100%;
-    fill: #fff;
-}
-
-.social-links a:hover {
-    transform: translateY(-5px);
-}
-
-.bottom_strip {
-    border-top: 1px solid #A88BEB;
-}
-
-.copy_txt p {
+.footer-logo p {
     font-size: 1rem;
-    color: #222222;
-    font-weight: 500;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 1px;
 }
 
-.ssl_certi {
-    display: inline-flex;
-    justify-content: flex-end;
-    width: 100%;
-    flex-wrap: wrap;
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.9375rem;
+    border-top: 1px solid #882ac9;
+}
+
+.footer-top h4 {
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    color: #882ac9;
+}
+
+.footer-links {
+    padding-left: 3.75rem;
+}
+
+.footer-links li a {
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 120%;
+    transition: all 0.2s linear;
+    position: relative;
     padding: 0.625rem 0;
 }
 
-.ssl_certi_inner {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 3.75rem;
-    width: 12.5rem;
-    background-image: url(../images/ssl.png);
+.footer-links li a::after,
+.disclaimer_wrap p a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #882ac9;
+    transform-origin: center;
+    transition: all 0.3s ease-out;
 }
 
-/* Footer CSS Start */
+.disclaimer_wrap h3 {
+    font-size: 2rem;
+    color: #882ac9;
+}
+
+.footer-links li a:hover {
+    color: #882ac9;
+}
+
+.disclaimer_wrap p a::after {
+    bottom: -3px;
+    height: 1px;
+    background-color: #882ac9;
+}
+
+.footer-links li a:hover::after,
+.disclaimer_wrap p a:hover::after {
+    transform: scaleX(0.9);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #882ac9;
+    padding-top: 0.625rem;
+    margin-top: 2.1875rem;
+}
+
+.footer-bottom p {
+    color: #000;
+}
+
+.behind_bar_text .social-icons ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.behind_bar_text .social-icons ul {
+    gap: 0.625rem;
+}
+.behind_bar_text .social-icons li a {
+    border: 1px solid #882ac9;
+}
+.behind_bar_text .social-icons li a svg {
+    fill: #882ac9;
+}
+.social-icons li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+.social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 9.375rem;
+}
+
+.social-icons {
+    max-width: 10.625rem;
+}
+
+.social-icons li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+
+.social-icons li a:hover {
+    transform: translateY(-4px);
+}
+
+.ssl_logo {
+    height: 3.75rem;
+    width: 8.75rem;
+}
+
+.ssl_logo_inner {
+    height: 100%;
+    width: 100%;
+}
+
+.social-icons li a svg {
+    height: 100%;
+    width: 100%;
+    fill: #000;
+}
+
+.connect_links li a {
+    font-size: 1.125rem;
+    color: #000;
+    transition: 0.2s all ease-in-out;
+}
+
+.connect_links li a:hover {
+    color: #882ac9;
+}
+
+.bg_center_contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.disclaimer_wrap p a {
+    color: #882ac9;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+}
+
+/* footer end  */
+
 
 /* Books Pages CSS Start */
 .sub_pages_banner {
