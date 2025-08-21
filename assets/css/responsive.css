@@ -134,6 +134,7 @@
     .featured_books_sec .books_item_slider {
         width: calc(100% - 100px);
     }
+    
 }
 
 @media (max-width: 767px) {

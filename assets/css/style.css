@@ -865,8 +865,8 @@ button.slick-next.slick-arrow {
 	width: 100%;
 }
 
-.faq_img_outer:hover .common_overlay {
-	transform: translate(-50%, -50%) scale(1);
+.faq_img_outer:hover .common_overlay_second {
+    transform: translate(-50%, -50%) scale(1);
 }
 .faq_sec .accordion-button, .accordion-button:not(.collapsed) {
     background: #b154f0;
@@ -954,7 +954,10 @@ button.slick-next.slick-arrow {
 .footer-links li a:hover {
     color: #b154f0;
 }
-
+.disclaimer_wrap p {
+    font-size: 1rem;
+    font-weight: 400;
+}
 .disclaimer_wrap p a::after {
     bottom: -3px;
     height: 1px;
