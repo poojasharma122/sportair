@@ -20,7 +20,7 @@ $(document).ready(function() {
   // Header Scroll JS End
 
   //Slider JS Start
-$('.books_item_slider').slick({
+$('.home_events_slider').slick({
   dots: false,
   infinite: true,
   slidesToScroll: 1,

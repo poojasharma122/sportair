@@ -140,183 +140,18 @@
     html {
         font-size: 14px;
     }
-
-    .books-content {
-        margin-bottom: 40px;
-    }
-
-    .books-content h1 {
-        font-size: 2rem;
-    }
-
-    .featured_books_sec .slick-prev,
-    .featured_books_sec .slick-next {
-        top: auto;
-        bottom: -50px;
-        transform: none;
-    }
-
-    .featured_books_sec .single-item-slider {
-        width: 100%;
-    }
-
-    .featured_books_sec .slick-prev {
-        left: 50% !important;
-        margin-left: -60px;
-    }
-
-    .featured_books_sec .slick-next {
-        right: 50% !important;
-        margin-right: -60px;
-    }
-
-    .nav__menu {
-        width: 100%;
-    }
-
-    .copy_txt {
-        text-align: center;
-    }
-
-    .ssl_certi {
-        justify-content: center;
-    }
-
-    .books-image {
-        height: 23.25rem;
-    }
-
-    .books_content p {
-        font-size: 1.3rem;
-    }
-
-    .books_slides {
-        height: 30.625rem;
-    }
-
-    .sub_pages_banner {
-        height: 25rem;
-    }
-
-    .banner_box h1 {
-        font-size: 2.5rem;
-    }
-
-    .banner_box h3 {
-        font-size: 1.4rem;
-    }
-    .featured_books_sec .books_item_slider {
-        width: 100%;
-    }
-
+	.accordion-button, .accordion-button:not(.collapsed) {
+		font-size: 1.7rem;
+	}
+   
 }
 
 @media screen and (max-width:575px) {
 
-    .nav__logo,
-    .footer_logo a {
-        width: 13.75rem;
-    }
-
-    .books-image {
-        height: 20.25rem;
-    }
-
-    .home_after_banner_text_rap p {
-        font-size: 1.1rem;
-    }
-
-    .section_heading {
-        font-size: 2rem;
-    }
-
-    .books_content h2 {
-        font-size: 2.5rem;
-    }
-
-    .books_content p {
-        font-size: 1.2rem;
-        font-weight: 400;
-    }
-
-    .newsletter-wrap p {
-        font-size: 1rem;
-    }
-
-    .text_part p {
-        font-size: 1.1rem;
-    }
-
+   
 }
 
 @media screen and (max-width:480px) {
 
-    .nav__logo,
-    .footer_logo a {
-        width: 11.75rem;
-    }
-
-    .section_heading {
-        font-size: 1.8rem;
-    }
-
-    .home_after_banner_text_rap p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-
-    .books_content h2 {
-        font-size: 2rem;
-    }
-
-    .books_content p {
-        font-size: 1.1rem;
-    }
-
-    .newsletter-wrap p {
-        font-size: 1rem;
-    }
-
-    .featured_books_sec .books_content h2 {
-        font-size: 1.4rem;
-    }
-
-    .featured_books_sec .books_content p {
-        font-size: 0.95rem;
-    }
-
-    /* .featured_books_sec .books_slides {
-        height: 26.5rem;
-    } */
-    .sub_pages_banner {
-        height: 20rem;
-    }
-
-    .banner_box h1 {
-        font-size: 1.8rem;
-    }
-
-    .banner_box h3 {
-        font-size: 1.2rem;
-    }
-
-    .text_part p {
-        font-size: 1rem;
-    }
-
-    .text_part h2 {
-        font-size: 1.7rem;
-    }
-
-    .book-image {
-        height: 19.875rem;
-    }
-
-    .book-title {
-        font-size: 1.5rem;
-    }
-
-    .book-title {
-        font-size: 1.5rem;
-    }
+   
 }
