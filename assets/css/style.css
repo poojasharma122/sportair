@@ -200,6 +200,9 @@ span.theme {
 .bg_light {
     background-color: #fff;
 }
+.bg_theme {
+    background-color: #b154f0;
+}
 .text_white {
     color: #fff;
 }
@@ -1117,3 +1120,84 @@ button.slick-next.slick-arrow {
 
 /* footer end  */
 
+/* Pages CS Start */
+.hotel_desc_name_link {
+    color: #222222;
+    display: block;
+}
+.hotels_name_img {
+    height: 100%;
+    overflow: hidden;
+}
+.hotels_full_review_wrap .row {
+    width: 100%;
+    margin: 0 auto;
+}
+.hotels_full_review_wrap {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1.25rem 1.875rem;
+    border-radius: 1.875rem 0;
+    background-color: #fff;
+}
+.hotels_full_review_section {
+    padding: 6.25rem 0;
+    margin-top: 5rem;
+}
+.hotels_rating_spec_txt h4 {
+    color: #b154f0;
+    background: #fff;
+    padding: 0.625rem;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.hotels_rating_spec_txt h5 {
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+.hotels_rating_spec_txt {
+    padding: 1.25rem;
+    border-radius: 1.875rem 0;
+}
+.hotels_rating_spec_txt ul li p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.625rem;
+}
+.hotels_rating_spec_txt ul li {
+    list-style-type: disc;
+    margin-left: 1.875rem;
+}
+.hotel_desc_card ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
+.hotels_rating_spec_txt ul li::marker{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.hotel_full_img_outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.hotel_full_img {
+    height: 100%;
+    width: 100%;
+}
+.no_padding{
+    padding: 0;
+}
+.no_padding_left{
+    padding-left:0;
+}
+.pages_booking_btn_box .butn {
+    background: #f5f5f7;
+}
+.pages_booking_btn_box .butn:after {
+    background: #000;
+}
+.pages_booking_btn_box .butn:hover {
+    color: #b154f0;
+}
+/* Pages CS End */
