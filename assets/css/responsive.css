@@ -144,7 +144,20 @@
     .featured_books_sec .books_item_slider {
         width: calc(100% - 100px);
     }
-    
+    .footer-top {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .footer-logo {
+        grid-column: 1 / -1;
+    }
+
+    .footer-links,
+    .footer-contact {
+        grid-column: auto;
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -157,7 +170,9 @@
     .hotel_full_img_outer {
         height: 25rem;
     }
-   
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width:575px) {
