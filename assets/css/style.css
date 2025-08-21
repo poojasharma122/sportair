@@ -1121,6 +1121,9 @@ button.slick-next.slick-arrow {
 /* footer end  */
 
 /* Pages CS Start */
+
+
+
 .hotel_desc_name_link {
     color: #222222;
     display: block;
@@ -1135,7 +1138,7 @@ button.slick-next.slick-arrow {
 }
 .hotels_full_review_wrap {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 1.25rem 1.875rem;
+    padding:  1.875rem 1.25rem;
     border-radius: 1.875rem 0;
     background-color: #fff;
 }
@@ -1199,5 +1202,22 @@ button.slick-next.slick-arrow {
 }
 .pages_booking_btn_box .butn:hover {
     color: #b154f0;
+}
+.home_after_banner_text_rap {
+    background-color: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.home_after_banner_text_rap p {
+    max-width: 75rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 0 10px;
 }
 /* Pages CS End */
