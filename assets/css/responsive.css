@@ -39,7 +39,17 @@
 
 
 @media (max-width: 991px) {
-
+    .no_padding_left {
+        padding: 0;
+    }
+    .hotel_full_img_outer {
+        height: 30rem;
+        margin-bottom: 1.25rem;
+        border-radius: 1.875rem 0;
+    }
+    .hotel_full_img {
+        border-radius: 1.875rem 0;
+    }
     .slick-prev,
     .slick-next {
         top: auto;
@@ -144,6 +154,9 @@
 	.accordion-button, .accordion-button:not(.collapsed) {
 		font-size: 1.7rem;
 	}
+    .hotel_full_img_outer {
+        height: 25rem;
+    }
    
 }
 
@@ -153,6 +166,8 @@
 }
 
 @media screen and (max-width:480px) {
-
+    .hotel_full_img_outer {
+        height: 20rem;
+    }
    
 }
