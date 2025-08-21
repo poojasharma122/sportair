@@ -264,6 +264,7 @@ span.theme {
     z-index: 9999;
     transition: all 0.3s ease-in-out;
     background-color: #f3f3f3;
+    padding: 0.5rem 0;
 }
 
 .header__container {
