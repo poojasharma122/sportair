@@ -42,14 +42,17 @@
     .no_padding_left {
         padding: 0;
     }
+
     .hotel_full_img_outer {
         height: 30rem;
         margin-bottom: 1.25rem;
         border-radius: 1.875rem 0;
     }
+
     .hotel_full_img {
         border-radius: 1.875rem 0;
     }
+
     .slick-prev,
     .slick-next {
         top: auto;
@@ -141,9 +144,11 @@
     .books-image {
         height: 27.25rem;
     }
+
     .featured_books_sec .books_item_slider {
         width: calc(100% - 100px);
     }
+
     .footer-top {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 15px;
@@ -158,8 +163,12 @@
         grid-column: auto;
         padding-left: 0;
     }
-        .home_content h2 {
-    font-size: 2.2rem;
+
+    .home_content h2 {
+        font-size: 2.2rem;
+    }
+    .home_events_cat_cards {
+    padding-bottom: 7rem;
 }
 }
 
@@ -167,36 +176,65 @@
     html {
         font-size: 14px;
     }
-	.accordion-button, .accordion-button:not(.collapsed) {
-		font-size: 1.7rem;
-	}
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 1.7rem;
+    }
+
     .hotel_full_img_outer {
         height: 25rem;
     }
+
     .footer-top {
         grid-template-columns: 1fr;
     }
+
     .footer-bottom {
         justify-content: center;
     }
+
     .footer-bottom p {
         margin-bottom: .625rem;
     }
 
+    .nav__toggle {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 }
 
 @media screen and (max-width:575px) {
     .home_content h2 {
-    font-size: 1.8rem;
+        font-size: 1.8rem;
+    }
+
+    .banner_section {
+        height: 28.75rem;
+    }
+
+    .text_part p {
+        font-size: 1.1rem;
+    }
+
+    .section_heading {
+        font-size: 2.5rem;
+    }
+
+    .home_events_content h2 {
+        font-size: 2rem;
+    }
+    .home_events_content p {
+    font-size: 1rem;
 }
-.banner_section {
-    height: 28.75rem;
+.home_events_slides {
+    height: 34.625rem;
 }
-  .text_part p {
-    font-size: 1.1rem;
-} 
-.section_heading {
-    font-size: 2.5rem;
+.home_why_us_content h5 {
+   text-align: center;
+}
+.home_why_us_icon_outer {
+    margin: 0 auto;
 }
 }
 
@@ -204,9 +242,9 @@
     .hotel_full_img_outer {
         height: 20rem;
     }
-    .section_heading {
-    font-size: 2.1rem;
-}
 
-   
+    .section_heading {
+        font-size: 2.1rem;
+    }
+
 }

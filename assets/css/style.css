@@ -517,7 +517,10 @@ span.theme {
     width: 100%;
     margin: 0 auto;
 }
-
+.home_events_slides_btn .butn {
+    color: #fff;
+    border: 1px solid #fff;
+}
 .home_events_slides {
     height: 40.625rem;
     margin: 0 auto;
