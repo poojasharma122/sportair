@@ -188,6 +188,7 @@ img {
     color: #2c3e50;
     font-size: 3rem;
     text-align: center;
+    line-height: 1.4;
 }
 
 span.theme {
@@ -871,6 +872,7 @@ button.slick-next.slick-arrow {
     font-size: 1.2rem;
     max-width: 50rem;
     margin: 0 auto;
+    line-height: 1.7;
 }
 
 .newsletter-wrap p span.brown {

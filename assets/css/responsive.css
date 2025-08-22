@@ -36,6 +36,9 @@
 .home_why_us_content h4 {
     font-size: 1.5rem;
 }
+.step_info.mb-3 {
+    font-size: 1.4rem;
+}
 
 }
 
@@ -181,6 +184,9 @@
     .faq_img_outer {
         height: 30rem;
     }
+    h3.step_info.mb-3 {
+    font-size: 1.2rem;
+}
 }
 
 @media (max-width: 767px) {
@@ -251,6 +257,9 @@
     .home_after_banner_text_rap p {
     font-size: 1.3rem;
     line-height: 1.5; 
+}
+.py-6 {
+    padding: 2.75rem 0;
 }
 }
 
