@@ -1592,6 +1592,12 @@ color: #b154f0;
     width: 100%;
     border-radius: 1.875rem 0;
     overflow: hidden;
+    box-shadow:#b154f0 0px 3px 8px;
+}
+h3.step_info.mb-3 {
+    background: #b154f0;
+    padding: 0.625rem;
+    color: #fff;
 }
 /* How It Works CSS End */
 
