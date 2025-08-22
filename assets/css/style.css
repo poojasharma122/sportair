@@ -438,7 +438,7 @@ span.theme {
     font-size: 3rem;
     color: #fff;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1.5;
 }
 
 
@@ -1638,3 +1638,47 @@ h3.step_info.mb-3 {
 }
 
 /* Modal CSS End */
+
+/* Footer Pages CSS Start */
+.footer_page_content hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid #882ac9;
+    opacity: 1;
+}
+
+.footer_page_content ul li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.footer_page_content ul li::before {
+    position: absolute;
+    content: ".";
+    font-size: 60px;
+    left: -2px;
+    top: -17px;
+}
+
+.footer_page_content h3 {
+    color: #882ac9;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.footer_page_content p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.footer_page_content p a {
+    color: #000;
+}
+
+.footer_page_content p a:hover {
+    color: #882ac9;
+}
+/* Footer Pages CSS Start */

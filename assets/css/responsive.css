@@ -123,7 +123,7 @@
 
     .img_part {
         height: 18.75rem;
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
 
     .text_part {
@@ -158,6 +158,9 @@
         grid-column: auto;
         padding-left: 0;
     }
+        .home_content h2 {
+    font-size: 2.2rem;
+}
 }
 
 @media (max-width: 767px) {
@@ -179,16 +182,31 @@
     .footer-bottom p {
         margin-bottom: .625rem;
     }
+
 }
 
 @media screen and (max-width:575px) {
-
-   
+    .home_content h2 {
+    font-size: 1.8rem;
+}
+.banner_section {
+    height: 28.75rem;
+}
+  .text_part p {
+    font-size: 1.1rem;
+} 
+.section_heading {
+    font-size: 2.5rem;
+}
 }
 
 @media screen and (max-width:480px) {
     .hotel_full_img_outer {
         height: 20rem;
     }
+    .section_heading {
+    font-size: 2.1rem;
+}
+
    
 }
