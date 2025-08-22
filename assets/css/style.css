@@ -1306,7 +1306,7 @@ color: #b154f0;
     padding: 1.25rem;
 }
 
-.blog_cards_txt span {
+.blog_cards_txt h4 {
     font-size: 1.3rem;
     line-height: 1.4;
     font-weight: 500;
@@ -1315,7 +1315,7 @@ color: #b154f0;
     color: #000;
 }
 
-.blog_cards_txt span:hover {
+.blog_cards_txt h4:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
     color: #882ac9;
@@ -1336,19 +1336,19 @@ color: #b154f0;
 .feature_heading p {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #000;
+    color: #2c3e50;
     max-width: 90%;
     margin: 0 auto;
 }
 
 .island_text p {
-    color: #000;
-    font-size: 1.2rem;
+    color: #2c3e50;
+    font-size: 1.1rem;
     line-height: 1.5rem;
 }
 
 .second_heading_island h5 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 2.5rem;
 }
 
@@ -1370,7 +1370,7 @@ color: #b154f0;
 }
 
 .island_main_content {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
