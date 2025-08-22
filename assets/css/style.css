@@ -180,7 +180,10 @@ img {
 .bg-0-0 {
     background-position: 0% 0%;
 }
-
+.bold{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
 /* Global CSS End */
 
 /* Section Heading CSS Start */
@@ -210,6 +213,10 @@ span.theme {
 .text_white {
     color: #fff;
 }
+.text_theme {
+    color: #b154f0;
+}
+
 
 .aoshide,
 .hide {
