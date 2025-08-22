@@ -1191,7 +1191,9 @@ button.slick-next.slick-arrow {
     padding: 1.25rem;
     border-radius: 1.875rem 0;
 }
-
+.highlight_txt {
+    line-height: 1.5;
+}
 .hotels_rating_spec_txt ul li p {
     color: #fff;
     font-size: 1.1rem;
