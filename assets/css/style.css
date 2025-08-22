@@ -1485,8 +1485,16 @@ color: #b154f0;
 
 /* Blog Page CSS End */
 
+/* About Page CSS Start */
+.about_what_do .home_featured_cards_text h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+}
 
-
+.newsletter-wrap p  a {
+    color: #b154f0;
+}
+/* About Page CSS End */
 
 
 
