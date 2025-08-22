@@ -261,6 +261,14 @@
 .py-6 {
     padding: 2.75rem 0;
 }
+.home_after_banner_text_rap .section_heading {
+    font-size: 2rem;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.blog_cards_txt h4 {
+    font-size: 1.2rem;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -321,6 +329,14 @@
     font-size: 1.2rem;
 
 }
+.home_after_banner_text_rap .section_heading {
+    font-size: 1.5rem;
+    max-width: 380px;
+    margin: 0 auto;
+}
+.feature_heading p {
+    font-size: 1.1rem;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -354,6 +370,8 @@
 }
 .home_after_banner_text_rap p {
     font-size: 1.1rem;
-
+}
+.feature_heading p {
+    font-size: 1rem;
 }
 }

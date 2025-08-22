@@ -211,7 +211,8 @@ span.theme {
     color: #fff;
 }
 
-.aoshide,.hide {
+.aoshide,
+.hide {
     overflow: hidden;
 }
 
@@ -518,10 +519,12 @@ span.theme {
     width: 100%;
     margin: 0 auto;
 }
+
 .home_events_slides_btn .butn {
     color: #fff;
     border: 1px solid #fff;
 }
+
 .home_events_slides {
     height: 40.625rem;
     margin: 0 auto;
@@ -662,7 +665,7 @@ button.slick-next.slick-arrow {
 
 /* Home Why Us CSS Start */
 .home_why_wrap {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
 
@@ -749,7 +752,7 @@ button.slick-next.slick-arrow {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
 }
 
 .newsletter-wrap h3 {
@@ -892,7 +895,7 @@ button.slick-next.slick-arrow {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
 }
 
 .newsletter-wrap h3 {
@@ -1193,9 +1196,11 @@ button.slick-next.slick-arrow {
     padding: 1.25rem;
     border-radius: 1.875rem 0;
 }
+
 .highlight_txt {
     line-height: 1.5;
 }
+
 .hotels_rating_spec_txt ul li p {
     color: #fff;
     font-size: 1.1rem;
@@ -1257,17 +1262,22 @@ button.slick-next.slick-arrow {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 1.875rem;
+}
+
+.home_after_banner_text_rap {
+    padding-inline: 0.625rem;
 }
 
 .home_after_banner_text_rap p {
     max-width: 75rem;
     margin: 0 auto;
     font-size: 1.5rem;
-    padding: 0 10px;
+    padding: 0 0.625rem;
 }
+
 .home_after_banner_text_rap p a {
-color: #b154f0;
+    color: #b154f0;
 }
 
 /* Pages CS End */
@@ -1286,7 +1296,7 @@ color: #b154f0;
 }
 
 .blog_cards_image {
-    height: 300px;
+    height: 18.75rem;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -1319,7 +1329,8 @@ color: #b154f0;
     font-weight: 500;
     transition: 0.2s all ease-in-out;
     display: inline-block;
-    color: #000;
+    color: #2c3e50;
+    text-align: center;
 }
 
 .blog_cards_txt h4:hover {
@@ -1361,7 +1372,7 @@ color: #b154f0;
 
 .island_content {
     border: 4px double #882ac9;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .island_text {
@@ -1373,7 +1384,7 @@ color: #b154f0;
 
 .second_heading_island {
     color: #882ac9;
-    line-height: 25px;
+    line-height: 1.5;
 }
 
 .island_main_content {
@@ -1386,8 +1397,8 @@ color: #b154f0;
 }
 
 .close-text-button svg {
-    height: 20px;
-    width: 20px;
+    height: 1.25rem;
+    width: 1.25rem;
     fill: #882ac9;
 }
 
@@ -1402,9 +1413,10 @@ color: #b154f0;
 .south_island_section_second {
     background-color: #fff7f3;
 }
+
 /* Best Family Hotels section css end*/
 
-/* blog main card css start */  
+/* blog main card css start */
 .blog_desc img {
     object-fit: cover;
     object-position: center;
@@ -1414,7 +1426,7 @@ color: #b154f0;
 
 .blog_desc {
     padding: 2.5rem 1.875rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     box-shadow: #882cb957 0px 3px 8px;
     background: #fff7f3;
 }
@@ -1471,7 +1483,7 @@ color: #b154f0;
 
 .blog_desc table th,
 .blog_desc table td {
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     text-align: left;
     border: 1px solid #818181;
 }
@@ -1486,8 +1498,9 @@ color: #b154f0;
 }
 
 .blog_desc .table_wrap {
-    max-width: 600px;
+    max-width: 37.5rem;
 }
+
 /* blog main card css end */
 
 /* Blog Page CSS End */
@@ -1498,26 +1511,30 @@ color: #b154f0;
     margin-bottom: 0.625rem;
 }
 
-.newsletter-wrap p  a {
+.newsletter-wrap p a {
     color: #b154f0;
 }
+
 /* About Page CSS End */
 
 /* Contact Page CSS Start  */
 .bg_dark .home_explore_wrap .row {
     background-color: #fff;
 }
+
 .contact-form {
     border-radius: 1.25rem 0;
     box-shadow: 0 4px 8px #2c3e50;
     padding: 1.25rem;
 }
+
 .contact_sec .container>.row {
     width: 100%;
     margin: 0 auto;
 }
+
 .form-title {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .contact-form input {
@@ -1536,9 +1553,12 @@ color: #b154f0;
 
 
 }
- .newsletter-wrap input:focus , .newsletter-wrap textarea:focus {
+
+.newsletter-wrap input:focus,
+.newsletter-wrap textarea:focus {
     border-color: #2c3e50;
 }
+
 .newsletter-wrap input,
 .newsletter-wrap textarea {
     width: 100%;
@@ -1552,23 +1572,28 @@ color: #b154f0;
     font-weight: 400;
     resize: none;
 }
+
 .newsletter-wrap input::placeholder,
 .newsletter-wrap textarea::placeholder {
     color: #b154f0;
     opacity: 1;
 }
+
 .newsletter-wrap input:focus::placeholder,
 .newsletter-wrap textarea:focus::placeholder {
     color: #2c3e50;
 }
-.about-cards ul li{
+
+.about-cards ul li {
     margin-left: 1.25rem;
     list-style-type: disc;
     margin-bottom: 0.5rem;
 }
-.about-cards p a{
+
+.about-cards p a {
     color: #b154f0;
 }
+
 /* Contact Page CSS End  */
 
 /* How It Works CSS Start */
@@ -1578,37 +1603,44 @@ color: #b154f0;
     overflow: hidden;
     position: relative;
 }
-.step_img_outer.large{
+
+.step_img_outer.large {
     height: 30rem;
 }
 
-.step_img_outer:hover .common_overlay_second{
-    transform: translate(-50%, -50%) scale(1);  
+.step_img_outer:hover .common_overlay_second {
+    transform: translate(-50%, -50%) scale(1);
 }
-.step_img{
+
+.step_img {
     height: 100%;
     width: 100%;
 }
+
 .step_content {
     padding: 1.25rem;
 }
-.step_content ul li{
+
+.step_content ul li {
     margin-left: 1.25rem;
     list-style-type: disc;
     margin-bottom: 0.625rem;
 }
+
 .step_cards {
     height: 100%;
     width: 100%;
     border-radius: 1.875rem 0;
     overflow: hidden;
-    box-shadow:#b154f0 0px 3px 8px;
+    box-shadow: #b154f0 0px 3px 8px;
 }
+
 h3.step_info.mb-3 {
     background: #b154f0;
     padding: 0.625rem;
     color: #fff;
 }
+
 /* How It Works CSS End */
 
 /* Modal CSS Start */
@@ -1625,9 +1657,10 @@ h3.step_info.mb-3 {
 }
 
 .modal-content .btn-close {
-    filter: invert(1); 
+    filter: invert(1);
     opacity: 1;
 }
+
 .modal-content .modal-header {
     border-bottom: 3px solid #fff !important;
     padding: 1.25rem 0;
@@ -1635,7 +1668,7 @@ h3.step_info.mb-3 {
 
 .modal-content form.newsletter-wrap {
     background: #fff;
-    padding: 1.25rem  0;
+    padding: 1.25rem 0;
     border-radius: 1.875rem 0;
 }
 
@@ -1655,19 +1688,16 @@ h3.step_info.mb-3 {
 }
 
 .footer_page_content ul li {
-    margin-bottom: 10px;
-    padding-left: 30px;
+    margin-bottom: 0.625rem;
+    padding-left: 1.875rem;
     line-height: 1.5rem;
     font-size: 1.2rem;
     position: relative;
 }
 
-.footer_page_content ul li::before {
-    position: absolute;
-    content: ".";
-    font-size: 60px;
-    left: -2px;
-    top: -17px;
+.footer_page_content ul li {
+    margin-left: 1.25rem;
+    list-style-type: disc;
 }
 
 .footer_page_content h3 {
@@ -1688,4 +1718,5 @@ h3.step_info.mb-3 {
 .footer_page_content p a:hover {
     color: #882ac9;
 }
+
 /* Footer Pages CSS Start */
