@@ -1496,5 +1496,66 @@ color: #b154f0;
 }
 /* About Page CSS End */
 
+/* Contact Page CSS Start  */
+.bg_dark .home_explore_wrap .row {
+    background-color: #fff;
+}
+.contact-form {
+    border-radius: 1.25rem 0;
+    box-shadow: 0 4px 8px #2c3e50;
+    padding: 1.25rem;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.contact-form input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ff0808;
+    padding: 0.625rem;
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #2c3e50;
+    background-color: transparent;
 
 
+}
+ .newsletter-wrap input:focus , .newsletter-wrap textarea:focus {
+    border-color: #2c3e50;
+}
+.newsletter-wrap input,
+.newsletter-wrap textarea {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b154f0;
+    padding: 0.625rem;
+    color: #2c3e50;
+    font-size: 1rem;
+    font-weight: 400;
+    resize: none;
+}
+.newsletter-wrap input::placeholder,
+.newsletter-wrap textarea::placeholder {
+    color: #b154f0;
+    opacity: 1;
+}
+.newsletter-wrap input:focus::placeholder,
+.newsletter-wrap textarea:focus::placeholder {
+    color: #2c3e50;
+}
+.about-cards ul li{
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+.about-cards p a{
+    color: #b154f0;
+}
+/* Contact Page CSS End  */
