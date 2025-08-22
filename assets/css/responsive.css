@@ -33,7 +33,9 @@
     .hamburger-menu {
         display: block;
     }
-
+.home_why_us_content h4 {
+    font-size: 1.5rem;
+}
 
 }
 
@@ -129,9 +131,9 @@
         margin-bottom: 0;
     }
 
-    .text_part {
-        padding: 0 !important;
-    }
+   .text_part {
+    padding: 2rem 0 1rem 0  !important;
+}
 
     .text_part h2 {
         font-size: 2rem;
@@ -246,6 +248,10 @@
     .accordion-button:not(.collapsed) {
         font-size: 1.7rem;
     }
+    .home_after_banner_text_rap p {
+    font-size: 1.3rem;
+    line-height: 1.5; 
+}
 }
 
 @media screen and (max-width:575px) {
@@ -299,8 +305,13 @@
     .accordion-button:not(.collapsed) {
         font-size: 1.5rem;
     }
+.py-10 {
+    padding: 5.25rem 0;
+}
+.home_after_banner_text_rap p {
+    font-size: 1.2rem;
 
-
+}
 }
 
 @media screen and (max-width:480px) {
@@ -328,4 +339,12 @@
     .accordion-button:not(.collapsed) {
         font-size: 1.3rem;
     }
+    .nav__logo, .footer-logo a {
+    height: 3.75rem;
+    width: 11.75rem;
+}
+.home_after_banner_text_rap p {
+    font-size: 1.1rem;
+
+}
 }
