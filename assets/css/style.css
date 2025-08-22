@@ -210,7 +210,7 @@ span.theme {
     color: #fff;
 }
 
-.aoshide {
+.aoshide,.hide {
     overflow: hidden;
 }
 
@@ -1554,8 +1554,43 @@ color: #b154f0;
 .about-cards ul li{
     margin-left: 1.25rem;
     list-style-type: disc;
+    margin-bottom: 0.5rem;
 }
 .about-cards p a{
     color: #b154f0;
 }
 /* Contact Page CSS End  */
+
+/* How It Works CSS Start */
+.step_img_outer {
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.step_img_outer.large{
+    height: 30rem;
+}
+
+.step_img_outer:hover .common_overlay_second{
+    transform: translate(-50%, -50%) scale(1);  
+}
+.step_img{
+    height: 100%;
+    width: 100%;
+}
+.step_content {
+    padding: 1.25rem;
+}
+.step_content ul li{
+    margin-left: 1.25rem;
+    list-style-type: disc;
+    margin-bottom: 0.625rem;
+}
+.step_cards {
+    height: 100%;
+    width: 100%;
+    border-radius: 1.875rem 0;
+    overflow: hidden;
+}
+/* How It Works CSS End */
