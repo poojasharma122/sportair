@@ -167,9 +167,18 @@
     .home_content h2 {
         font-size: 2.2rem;
     }
+
     .home_events_cat_cards {
-    padding-bottom: 7rem;
-}
+        padding-bottom: 7rem;
+    }
+
+    .faq_sec .accordion {
+        padding: 2rem 0 0 0;
+    }
+
+    .faq_img_outer {
+        height: 30rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -202,6 +211,41 @@
         width: 2.5rem;
         height: 2.5rem;
     }
+
+    .home_featured_img_outer {
+        height: 20rem;
+    }
+
+    .home_why_us_icon_outer {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .home_why_us_img_outer {
+        height: 20.75rem;
+    }
+
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .home_why_us_content h4 {
+        font-size: 1.4rem;
+    }
+
+    .pt-5 {
+        padding-top: 2rem !important;
+    }
+
+    .faq_img_outer {
+        height: 25rem;
+    }
+
+    .faq_sec .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -224,18 +268,39 @@
     .home_events_content h2 {
         font-size: 2rem;
     }
+
     .home_events_content p {
-    font-size: 1rem;
-}
-.home_events_slides {
-    height: 34.625rem;
-}
-.home_why_us_content h5 {
-   text-align: center;
-}
-.home_why_us_icon_outer {
-    margin: 0 auto;
-}
+        font-size: 1rem;
+    }
+
+    .home_events_slides {
+        height: 34.625rem;
+    }
+
+    .home_why_us_content h5 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .home_why_us_icon_outer {
+        margin: 0 auto;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .home_why_us_content h4 {
+        font-size: 1.4rem;
+    }
+
+    .faq_sec .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 1.5rem;
+    }
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -247,4 +312,20 @@
         font-size: 2.1rem;
     }
 
+    .newsletter-wrap p {
+        font-size: 1.1rem;
+    }
+
+    .home_why_us_content h4 {
+        font-size: 1.4rem;
+    }
+
+    .faq_img_outer {
+        height: 20rem;
+    }
+
+    .faq_sec .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 1.3rem;
+    }
 }
