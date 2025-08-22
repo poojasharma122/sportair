@@ -34,3 +34,27 @@ AOS.init({
   duration:1200,
 });
 // AOS JS End
+
+// Modal JS Start
+document.addEventListener("DOMContentLoaded", function () {
+    const modalEl = document.getElementById('exampleModal');
+    const form = document.getElementById('bookingForm');
+
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault(); 
+
+        const modal = bootstrap.Modal.getInstance(modalEl);
+        modal.hide();
+
+
+        setTimeout(function () {
+            alert("Thank you for booking with us! We will be in touch with you shortly.");
+            form.reset();
+        }, 400); 
+    });
+});
+// Modal JS End
+
+

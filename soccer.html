@@ -790,23 +790,47 @@
     <!-- Footer End  -->
 
 
+   <!-- Contact Modal  Start-->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Package Here</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row newsletter-wrap" id="bookingForm">
+                        <div class="mb-3 col-md-12">
+                            <input type="text" class="custom-input" placeholder="Your Name" required="" id="name">
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <input type="email" class="custom-input" placeholder="Your Email" required="" id="email">
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <input type="tel" class="custom-input" placeholder="Your Phone (Optional)" id="phone">
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <input type="text" class="custom-input" placeholder="Number of Persons" required=""
+                                id="persons">
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="newsletter_btn butn">Submit</button>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="text_theme">
+                                Our team will contact you within 24 hours of your query.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+    <!-- Contact Modal End -->
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/slick.js"></script>

@@ -1594,3 +1594,38 @@ color: #b154f0;
     overflow: hidden;
 }
 /* How It Works CSS End */
+
+/* Modal CSS Start */
+.modal-content {
+    background: #b154f0;
+    padding: 1.25rem;
+    border: 5px solid #fff;
+    border-radius: 1.875rem 0;
+}
+
+.modal-content .modal-title {
+    color: #fff;
+    font-size: 1.6rem !important;
+}
+
+.modal-content .btn-close {
+    filter: invert(1); 
+    opacity: 1;
+}
+.modal-content .modal-header {
+    border-bottom: 3px solid #fff !important;
+    padding: 1.25rem 0;
+}
+
+.modal-content form.newsletter-wrap {
+    background: #fff;
+    padding: 1.25rem  0;
+    border-radius: 1.875rem 0;
+}
+
+.modal-content .newsletter-wrap p {
+    color: #b154f0;
+    font-size: 1rem;
+}
+
+/* Modal CSS End */
