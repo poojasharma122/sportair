@@ -989,11 +989,12 @@ button.slick-next.slick-arrow {
 
 .footer-links li a {
     color: #000;
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     line-height: 120%;
     transition: all 0.2s linear;
     position: relative;
     padding: 0.625rem 0;
+    font-weight: 500;
 }
 
 .footer-links li a::after,
