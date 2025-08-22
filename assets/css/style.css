@@ -1295,6 +1295,9 @@ button.slick-next.slick-arrow {
 /* Blog Page CSS Start */
 
 /* blog card  css start */
+.blog_description_sec {
+    margin-top: 3.5rem;
+}
 .blog_cards {
     display: block;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
